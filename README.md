@@ -1,1 +1,1 @@
-# Navigation_Component_Clean_MVVM_Rx_Paging_Hilt_Moshi_DiffUtil_Sample
+# NavComponent_Clean_MVVM_Hilt_Rx_DiffUtil_Sample
