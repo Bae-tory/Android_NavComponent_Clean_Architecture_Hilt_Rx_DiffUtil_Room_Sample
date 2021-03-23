@@ -57,11 +57,9 @@ object MockLocalData {
     )
 
     val bookRoomObjects = listOf(bookRoomObject1, bookRoomObject2)
-
-    val bookDataModels = listOf(bookDataModel, bookDataModel, bookDataModel, bookDataModel, bookDataModel, bookDataModel, bookDataModel, bookDataModel)
+    val bookDataModels = listOf(bookDataModel, bookDataModel)
 
 }
-
 /*    data class BookRoomObject(
         @PrimaryKey(autoGenerate = true)                     var id:                      Long?               = 1L,
         @ColumnInfo(name = "authors")                        val authors:                 List<String>,
