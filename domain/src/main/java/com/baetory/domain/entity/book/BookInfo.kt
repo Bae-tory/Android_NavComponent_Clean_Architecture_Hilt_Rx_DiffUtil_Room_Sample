@@ -4,6 +4,7 @@ import com.baetory.domain.entity.Entity
 import java.util.*
 
 data class BookInfo(
+    val id : Int = 0,
     val authors: List<String>,
     val translators: List<String>,
     val isEnd: Boolean,

@@ -4,6 +4,7 @@ import com.baetory.data.mapper.DataModel
 import java.util.*
 
 data class BookDataModel(
+    val id : Int,
     val isEnd: Boolean,
     val authors: List<String>,
     val translators: List<String>,

@@ -69,6 +69,7 @@ class BookInfoEntityMapper @Inject constructor() : EntityMapper<BookDataModel, B
     override fun toEntity(dataModel: BookDataModel): BookInfo =
         with(dataModel) {
             BookInfo(
+                id = id,
                 authors = authors,
                 translators = translators,
                 contents = contents,
@@ -88,6 +89,7 @@ class BookInfoEntityMapper @Inject constructor() : EntityMapper<BookDataModel, B
     override fun toDataModel(entity: BookInfo): BookDataModel =
         with(entity) {
             BookDataModel(
+                id = id,
                 authors = authors,
                 translators = translators,
                 contents = contents,
