@@ -2,7 +2,7 @@ package com.baetory.data.mapper
 
 import com.baetory.data.mapper.book.BookEntityMapper
 import com.baetory.data.mapper.book.BookInfoEntityMapper
-import com.baetory.data.mock.MockData
+import com.baetory.data.mock.mockdata.MockData
 import org.junit.Before
 import org.junit.Test
 import kotlin.test.assertEquals
